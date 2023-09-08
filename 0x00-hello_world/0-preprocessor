@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp -D CFILE="$CFILE" input.c -o C
+gcc -E "$CFILE" -o c
